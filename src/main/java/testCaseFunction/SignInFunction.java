@@ -15,8 +15,6 @@ public class SignInFunction extends BasePage {
     private By loginPassword = By.id("password");
     private By loginBtn = By.id("loginButton");
     private String emailAddress = "testtestbir@gmail.com";
-    private String fName = "test";
-    private String lName = "testbir";
 
     public void signInForm() {
         element(By.linkText("Giriş Yap")).click();
